@@ -51,13 +51,13 @@ body {
   color: #555;
 }
 
-.test {
-  /* width: 1000px; */
-  background-color: red;
-  /* max-width: 1000px; */
-  color: #fff;
-  max-width: 50rem;
-  padding: 4rem;
-  font-size: 2rem;
-  /* 1 rem = 16px -> 500rem */
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
 }
