@@ -51,19 +51,9 @@ body {
   color: #555;
 }
 
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.6rem 0;
-}
-
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
-  align-items: center;
-}
+/***************************/
+/* GENERAL REUSABLE COMPONENTS */
+/***************************/
 
 .heading-primary {
   font-size: 5.2rem;
@@ -72,12 +62,6 @@ body {
   color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
-}
-
-.hero-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
 }
 
 .btn:link,
@@ -118,12 +102,40 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-.hero-img {
-  width: 100%;
-}
-
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+/***************************/
+/* HEADER */
+/***************************/
+
+/***************************/
+/* HERO SECTION */
+/***************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .delivered-meals {
